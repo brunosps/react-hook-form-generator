@@ -330,7 +330,7 @@ export const ObjectField: FC<FieldProps<ObjectFieldSchema>> = ({
           />
         )}
       </Flex>
-      <Collapse isOpen={isOpen}>
+      <Collapse in={isOpen}>
         <Stack {...objectStyles.objectContainer}>
           {Object.entries(field.properties).map(
             ([fieldName, objectField], i) => (
