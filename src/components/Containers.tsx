@@ -222,7 +222,7 @@ export const ArrayField: FC<FieldProps<ArrayFieldSchema>> = ({
           )}
         </ButtonGroup>
       </Flex>
-      <Collapse isOpen={isOpen}>
+      <Collapse in={isOpen}>
         <Stack {...arrayStyles.arrayContainer}>
           {fields.map((item, i) => (
             <Box
