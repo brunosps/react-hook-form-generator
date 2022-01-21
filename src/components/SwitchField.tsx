@@ -5,7 +5,7 @@ import {
   FormHelperText,
   FormErrorMessage,
   Switch,
-} from '@chakra-ui/core';
+} from '@chakra-ui/react';
 import { useFormContext } from 'react-hook-form';
 
 import { FieldProps, SwitchFieldStyles, SwitchFieldSchema } from '../types';

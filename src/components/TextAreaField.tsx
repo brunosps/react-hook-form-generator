@@ -6,7 +6,7 @@ import {
   FormErrorMessage,
   Textarea,
   FormHelperText,
-} from '@chakra-ui/core';
+} from '@chakra-ui/react';
 
 import { FieldProps, FieldStyles, TextAreaFieldSchema } from '../types';
 import { useErrorMessage } from '../hooks/useErrorMessage';

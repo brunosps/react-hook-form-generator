@@ -9,7 +9,7 @@ import {
   InputRightAddon,
   FormHelperText,
   FormErrorMessage,
-} from '@chakra-ui/core';
+} from '@chakra-ui/react';
 
 import { FieldProps, FieldStyles, TextFieldSchema } from '../types';
 import { useErrorMessage } from '../hooks/useErrorMessage';

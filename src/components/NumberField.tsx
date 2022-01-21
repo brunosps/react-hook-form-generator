@@ -9,7 +9,7 @@ import {
   NumberIncrementStepper,
   NumberDecrementStepper,
   FormErrorMessage,
-} from '@chakra-ui/core';
+} from '@chakra-ui/react';
 import { useFormContext, Controller } from 'react-hook-form';
 
 import { FieldProps, FieldStyles, NumberFieldSchema } from '../types';

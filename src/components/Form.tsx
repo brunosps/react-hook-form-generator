@@ -1,5 +1,5 @@
 import React, { FC, BaseSyntheticEvent, useMemo } from 'react';
-import { Box, Heading, Stack, ButtonGroup, Button } from '@chakra-ui/core';
+import { Box, Heading, Stack, ButtonGroup, Button } from '@chakra-ui/react';
 import { useForm, FormProvider, UseFormOptions } from 'react-hook-form';
 import merge from 'lodash.merge';
 

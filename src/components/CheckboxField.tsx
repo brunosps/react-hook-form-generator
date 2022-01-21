@@ -6,7 +6,7 @@ import {
   FormErrorMessage,
   Checkbox,
   Stack,
-} from '@chakra-ui/core';
+} from '@chakra-ui/react';
 import { useFormContext } from 'react-hook-form';
 
 import { FieldProps, CheckboxFieldSchema, CheckboxFieldStyles } from '../types';

@@ -5,7 +5,7 @@ import {
   FormHelperText,
   FormErrorMessage,
   Select,
-} from '@chakra-ui/core';
+} from '@chakra-ui/react';
 import { useFormContext } from 'react-hook-form';
 
 import { FieldProps, SelectFieldSchema, SelectFieldStyles } from '../types';

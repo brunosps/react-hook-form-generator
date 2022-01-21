@@ -1,5 +1,5 @@
 import React from 'react';
-import { CSSReset, ThemeProvider } from '@chakra-ui/core';
+import { CSSReset, ChakraProvider } from '@chakra-ui/react';
 import { configure, addDecorator } from '@storybook/react';
 
 configure(
@@ -10,8 +10,8 @@ configure(
 );
 
 addDecorator(story => (
-  <ThemeProvider>
+  <ChakraProvider>
     <CSSReset />
     {story()}
-  </ThemeProvider>
+  </ChakraProvider>
 ));

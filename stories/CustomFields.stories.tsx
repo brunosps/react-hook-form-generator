@@ -1,7 +1,7 @@
 import React from 'react';
 import Select from 'react-select';
 import { useFormContext, Controller } from 'react-hook-form';
-import { FormControl, FormLabel } from '@chakra-ui/core';
+import { FormControl, FormLabel } from '@chakra-ui/react';
 import { action } from '@storybook/addon-actions';
 
 import { Form } from '../src/components/Form';
